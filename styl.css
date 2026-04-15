@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(135deg, #2A2D3E, #FECB6E);
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: 'Times New Roman', Times, serif;
+ color: black;
+ text-decoration: underline;
+}
+.container {
+  justify-content: center;
+  gap: 60px;
+  display: flex;
+  margin-top: 130px;
+  
+} 
+
+.box{
+  width: 200px;
+  height: 220px;
+}
+.top {
+  background:#ffceec ;
+  padding: 25px;
+  width: 180px;
+  height: 150px;
+}
+.top p{
+font-size: 19px;
+font-weight: bolder;
+text-transform: capitalize ;
+}
+
+.iconify {
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+  background:#6b4161;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  
+}
+.foot1 {
+  width: 210px;
+  height: 20px;
+  background:#504b4e;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.foot1 a {
+  color: black;
+  font-size: 18px;
+}
+.foot1 svg{
+  color: white;
+  font-size: 20px;
+}
+
+
+.last {
+  margin-top: 420px;
+  font-size: 20px;
+  font-style: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.last:hover{
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
